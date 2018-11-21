@@ -16,12 +16,22 @@
         <hr>
         <form action="http://www.w3schools.com/action_page.php" method="get">
 
-            Name:
-            <input type="text" name="name"><br> E-mail:
+            First name:
+            <input type="text" name="First-name" placeholder="John"required><br> 
+            Last name: 
+            <input type="text" name="Last-name" placeholder="Doe"required><br>
+            E-mail:
             <input type="email" name="email"><br>
 
             <!--add your own inputs below-->
-
+            Phone number:<input type="tel" name="Phone number" required><br>
+            What grade are you in? <br><input type="radio" name="grade" value="9th grade"> 9th grade<br><input type="radio" name="grade" value="10th grade"> 10th grade<br><input type="radio" name="grade" value="11th grade"> 11th grade<br><input type="radio" name="grade" value="12th grade"> 12th grade
+            <br>Do you have a nickname? 
+            <select name="nickname">
+                <option value="Not sure" selected> Not sure </option>
+                <option value="Yes"> Yes </option>
+                <option value="No"> No </option>
+            </select>
 
 
 
@@ -31,7 +41,7 @@
 
             <!--add your own inputs above-->
 
-            <input class="blue-button" type="submit" value="Submit">
+            <br><input class="blue-button" type="submit" value="Submit">
         </form>
     </div>
 </body>
